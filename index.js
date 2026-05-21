@@ -1,8 +1,3 @@
-// shiki-unlearn — a red-accented dark Shiki code theme for Unlearn.
-// Highlights with the brand red accent (#ff3b30) over neutral greys,
-// instead of a default multicolour palette.
-
-/** @type {import('shiki').ThemeRegistrationRaw} */
 export const unlearn = {
   name: 'unlearn-red',
   type: 'dark',
