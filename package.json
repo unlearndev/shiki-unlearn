@@ -1,0 +1,36 @@
+{
+  "name": "shiki-unlearn",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A red-accented dark Shiki code theme for Unlearn",
+  "author": "Alex Garrett-Smith <alexander@vueschool.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlearndev/shiki-unlearn.git"
+  },
+  "homepage": "https://github.com/unlearndev/shiki-unlearn#readme",
+  "bugs": {
+    "url": "https://github.com/unlearndev/shiki-unlearn/issues"
+  },
+  "keywords": [
+    "shiki",
+    "shiki-theme",
+    "theme",
+    "syntax-highlighting",
+    "unlearn"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
