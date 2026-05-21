@@ -16,21 +16,21 @@ npm i -D shiki-unlearn
 
 ```js
 import { codeToHtml } from 'shiki'
-import { unlearnRed } from 'shiki-unlearn'
+import { unlearn } from 'shiki-unlearn'
 
-const html = await codeToHtml(code, { lang: 'ts', theme: unlearnRed })
+const html = await codeToHtml(code, { lang: 'ts', theme: unlearn })
 ```
 
 ### Slidev (`setup/shiki.ts`)
 
 ```ts
 import { defineShikiSetup } from '@slidev/types'
-import unlearnRed from 'shiki-unlearn'
+import { unlearn } from 'shiki-unlearn'
 
 export default defineShikiSetup(() => ({
   themes: {
-    dark: unlearnRed,
-    light: unlearnRed,
+    dark: unlearn,
+    light: unlearn,
   },
 }))
 ```

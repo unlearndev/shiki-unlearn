@@ -3,7 +3,7 @@
 // instead of a default multicolour palette.
 
 /** @type {import('shiki').ThemeRegistrationRaw} */
-export const unlearnRed = {
+export const unlearn = {
   name: 'unlearn-red',
   type: 'dark',
   colors: {
@@ -56,4 +56,4 @@ export const unlearnRed = {
   ],
 }
 
-export default unlearnRed
+export default unlearn
